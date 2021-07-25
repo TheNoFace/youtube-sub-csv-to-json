@@ -19,3 +19,5 @@ for i in range(0, len(channelId)):
 
 with open('output.json', 'w', encoding='utf-8') as output:
     json.dump(jsonOutList, output, ensure_ascii=False, indent=2)
+
+print('Converted %d subscription list to output.json' % len(channelId))
